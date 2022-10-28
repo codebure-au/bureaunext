@@ -1,0 +1,54 @@
+.App .title {
+  font-size: 2.25em;
+  font-weight: bold;
+}
+
+.App .subtitle {
+  font-size: 0.9em;
+  color: hsl(0, 0%, 25%);
+}
+
+.App .body {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: stretch;
+}
+
+.App .body .text {
+  flex: 5;
+  font-size: 1.1em;
+  display: flex;
+  flex-direction: column;
+}
+
+.App a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.App .body .screenshots {
+  flex: 2;
+  display: flex;
+  padding: 1.5em 0em;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .body .screenshots img {
+  object-fit: contain;
+  width: 80vw;
+}
+
+@media screen and (min-width: 600px) {
+  .App .body {
+    flex-direction: row;
+  }
+
+  .App .body .screenshots img {
+    width: 15vw;
+  }
+
+  .App .body .screenshots {
+    justify-content: flex-end;
+  }
+}

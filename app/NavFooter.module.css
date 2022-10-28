@@ -1,0 +1,38 @@
+.NavFooter {
+  background-color: hsl(0, 0%, 93%);
+  padding: 1.5em 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.NavFooter .section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin: 0.5em 1em;
+}
+
+.NavFooter .section .sectionHeader {
+  font-weight: bold;
+  user-select: none;
+  cursor: default;
+}
+
+.NavFooter .section a {
+  color: black;
+  text-decoration: none;
+  margin: 0.25em 0em;
+}
+
+.NavFooter .section a.active, .NavFooter .section a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 600px) {
+  .NavFooter {
+    justify-content: flex-start;
+  }
+}

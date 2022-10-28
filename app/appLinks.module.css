@@ -1,0 +1,25 @@
+.appLinks {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.appLinks img {
+  max-width: 100%;
+  height: auto;
+}
+
+.appLinks .appStore img {
+  margin: 6% 0%;
+  width: 80%;
+}
+
+.appLinks .playStore, .appLinks .appStore {
+  width: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .appLinks .playStore, .appLinks .appStore {
+    width: 8em;
+  }
+}
