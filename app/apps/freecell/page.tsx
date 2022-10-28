@@ -4,7 +4,7 @@ import Title from "../../Title";
 import styles from "../app.module.css";
 import appLinksStyle from "../../appLinks.module.css";
 
-const FreeCell: React.FC = () => {
+export default function FreeCell() {
   return (
     <div className="page">
       <Title text="BURE - FreeCell" />
@@ -63,6 +63,4 @@ const FreeCell: React.FC = () => {
       </div>
     </div>
   );
-};
-
-export default FreeCell;
+}
