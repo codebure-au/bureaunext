@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "docker-build": "docker buildx build --platform=linux/amd64 -t bureaunext .",
+    "docker-push": "sh ./docker.sh"
   },
   "dependencies": {
     "next": "13.0.0",

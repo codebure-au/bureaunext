@@ -2,9 +2,11 @@ FROM node:alpine
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY package.json yarn.lock ./
 
-RUN yarn
+RUN yarn --frozen-lockfile
+
+COPY . .
 
 RUN yarn build
 
