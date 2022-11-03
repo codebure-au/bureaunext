@@ -15,7 +15,7 @@ export default function Head() {
       />
       <meta
         property="og:description"
-        content="Classic FreeCell. No Ads. No Frills."
+        content="Classic FreeCell. No Frills."
         key="ogDescription"
       />
       <title>BURE - FreeCell</title>

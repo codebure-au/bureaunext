@@ -12,21 +12,13 @@ export default function FreeCell() {
         <div className={styles.body}>
           <div className={styles.text}>
             <div className={styles.title}>FreeCell</div>
-            <div className={styles.subtitle}>
-              Classic FreeCell. No Ads. No Frills.
-            </div>
+            <div className={styles.subtitle}>Classic FreeCell. No Frills.</div>
             <div style={{ flex: 1 }}>
               <p>
-                The classic Solitaire variant, FreeCell, fully ad-free. No ads,
-                ever. Just play.
-              </p>
-              <p>
-                Experience the relentless fun and excitement of FreeCell in a
-                way never before seen on mobile devices - namely, without ads.
-                There are a lot of options, including Left-Handed mode, and the
-                ability to set the background to different colours. You can undo
-                unlimited times, replay as much as you want, and even start a
-                new game if you like.
+                FreeCell Solitaire, no ads, no frills. Options include
+                background colour changing, left-handed undo, and foundation
+                location customisation. Unlimited undo and easy restart allow
+                for fun and relaxing gameplay.
               </p>
             </div>
             <p>
