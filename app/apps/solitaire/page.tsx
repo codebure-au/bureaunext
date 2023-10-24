@@ -22,7 +22,7 @@ export default function Solitaire() {
             </div>
             <div style={{ flex: 1 }}>
               <p>
-                Solitaire Solitaire, no ads, no frills. Options include
+                Klondike Solitaire, no ads, no frills. Options include
                 background colour changing, left-handed undo, and foundation
                 location customisation. Now with more than one style of card back! 
                 Unlimited undo and easy restart allow for fun and relaxing gameplay.
