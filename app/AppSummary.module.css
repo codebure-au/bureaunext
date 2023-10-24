@@ -39,6 +39,23 @@
   width: 100%;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.icon img {
+  height: 3.25em;
+  border-radius: 0.5em;
+}
+
 @media screen and (min-width: 600px) {
   .body {
     flex-direction: row;

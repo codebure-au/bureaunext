@@ -4,7 +4,7 @@ export default function Head() {
       <meta property="og:site_name" content="BURE" key="ogSiteName" />
       <meta
         property="og:image"
-        content="https://bure.com.au/images/feature_image.jpg"
+        content="https://bure.com.au/images/freecell_play_feature_image.jpg"
         key="ogImage"
       />
       <meta property="og:image:width" content="1024" key="ogImageWidth" />

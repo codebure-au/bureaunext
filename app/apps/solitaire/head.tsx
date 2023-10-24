@@ -4,21 +4,21 @@ export default function Head() {
       <meta property="og:site_name" content="BURE" key="ogSiteName" />
       <meta
         property="og:image"
-        content="https://bure.com.au/images/freecell_play_feature_image.jpg"
+        content="https://bure.com.au/images/solitaire_play_feature_image.jpg"
         key="ogImage"
       />
       <meta property="og:image:width" content="1024" key="ogImageWidth" />
       <meta
         property="og:title"
-        content="BURE - FreeCell Out Now for iOS and Android"
+        content="BURE - Solitaire Out Now for iOS and Android"
         key="ogTitle"
       />
       <meta
         property="og:description"
-        content="Classic FreeCell. No Ads. No Frills."
+        content="Classic Solitaire. No Frills."
         key="ogDescription"
       />
-      <title>BURE - Apps</title>
+      <title>BURE - Solitaire</title>
     </>
   );
 }

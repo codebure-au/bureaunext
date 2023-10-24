@@ -16,6 +16,7 @@ const NavFooter: React.FC = () => {
           <Link href="/apps">Apps</Link>
         </div>
         <Link href="/apps/freecell">FreeCell</Link>
+        <Link href="/apps/solitaire">Solitaire</Link>
       </div>
       <div className={styles.section}>
         <div className={styles.sectionHeader}>

@@ -39,6 +39,24 @@
   width: 80vw;
 }
 
+.App .row {
+  display: flex;
+  flex-direction: row;
+}
+
+.App .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 0.5em;
+}
+
+.App .icon img {
+  height: 3.25em;
+  border-radius: 0.5em;
+}
+
+
 @media screen and (min-width: 600px) {
   .App .body {
     flex-direction: row;
