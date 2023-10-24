@@ -9,7 +9,8 @@
     "lint": "next lint",
     "export": "next export",
     "docker-build": "docker buildx build --platform=linux/amd64 -t bureaunext .",
-    "docker-push": "sh ./docker.sh"
+    "docker-push": "sh ./docker.sh",
+    "pm2-start": "pm2 start npm --name \"nextjs\" -- start"
   },
   "dependencies": {
     "@aws-sdk/client-dynamodb": "^3.209.0",
