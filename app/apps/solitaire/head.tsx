@@ -10,7 +10,7 @@ export default function Head() {
       <meta property="og:image:width" content="1024" key="ogImageWidth" />
       <meta
         property="og:title"
-        content="BURE - Solitaire Out Now for iOS and Android"
+        content="BURE - Klondike Solitaire - Available on Google Play"
         key="ogTitle"
       />
       <meta
