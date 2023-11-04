@@ -7,8 +7,10 @@ const Apps: React.FC = () => {
   return (
     <div className="page">
       <Title text="BURE - Apps" />
-      <FreeCellSummary />
-      <SolitaireSummary />
+      <div className="page-content">
+        <FreeCellSummary />
+        <SolitaireSummary />
+      </div>
     </div>
   );
 };

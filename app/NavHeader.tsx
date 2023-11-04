@@ -1,20 +1,20 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "./NavHeader.module.css";
 
 const NavHeader: React.FC = () => {
   return (
     <div className={styles.NavHeader}>
-      <div className="header">
+      <div className={styles.header}>
         <Link href="/">
-          <img
+          <Image
+            alt="BURE Logo"
+            className={styles.logo}
             src="/logo.svg"
-            style={{
-              width: "3.5em",
-              height: "3.5em",
-              padding: "0.25em",
-            }}
+            width={100}
+            height={100}
           />
         </Link>
       </div>

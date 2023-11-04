@@ -1,4 +1,24 @@
 .NavHeader {
   background-color: seagreen;
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.NavHeader .header {
+  width: auto;
+}
+
+.NavHeader .logo {
+  width: 3.5em;
+  height: 3.5em;
+  padding: 0.25em;
+}
+
+@media screen and (min-width: 1280px) {
+  .NavHeader .header {
+    width: 1280px;
+    align-self: center;
+  }
 }

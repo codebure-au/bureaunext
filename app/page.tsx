@@ -6,8 +6,10 @@ export default function Root() {
   return (
     <main className="page">
       <Title text="BURE" />
-      <FreeCellSummary />
-      <SolitaireSummary />
+      <div className="page-content">
+        <FreeCellSummary />
+        <SolitaireSummary />
+      </div>
     </main>
   );
 }

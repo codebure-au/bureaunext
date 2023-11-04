@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "./AppSummary.module.css";
 import appLinksStyle from "./appLinks.module.css";
@@ -10,8 +11,14 @@ const FreeCellSummary: React.FC = () => {
       <div className={styles.body}>
         <div className={styles.text}>
           <div className={styles.row}>
-            <div className={styles.icon}>
-              <img src="/images/freecell_icon.png" />
+            <div className={styles.iconContainer}>
+              <Image
+                className={styles.iconImage}
+                alt="FreeCell Icon"
+                width={512}
+                height={512}
+                src="/images/freecell_icon.png"
+              />
             </div>
             <div style={{ flex: 1 }}>
               <div className={styles.title}>
@@ -25,7 +32,7 @@ const FreeCellSummary: React.FC = () => {
           <p>
             <div className={appLinksStyle.appLinks}>
               <div className={appLinksStyle.playStore}>
-                <a
+                <Link
                   href="https://play.google.com/store/apps/details?id=au.com.bure.apps.freecell&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
                   target="_blank"
                 >
@@ -33,10 +40,10 @@ const FreeCellSummary: React.FC = () => {
                     alt="Get it on Google Play"
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                   />
-                </a>
+                </Link>
               </div>
               <div className={appLinksStyle.appStore}>
-                <a
+                <Link
                   href="https://apps.apple.com/app/freecell-ad-free/id1645268425"
                   target="_blank"
                 >
@@ -44,7 +51,7 @@ const FreeCellSummary: React.FC = () => {
                     alt="Download on the App Store"
                     src="/images/appstore.svg"
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </p>

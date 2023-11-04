@@ -44,15 +44,16 @@
   flex-direction: row;
 }
 
-.icon {
+.iconContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 0.5em;
 }
 
-.icon img {
+.iconImage {
   height: 3.25em;
+  width: 3.25em;
   border-radius: 0.5em;
 }
 

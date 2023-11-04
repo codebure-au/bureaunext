@@ -44,15 +44,16 @@
   flex-direction: row;
 }
 
-.App .icon {
+.App .iconContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-right: 0.5em;
 }
 
-.App .icon img {
+.App .iconImage {
   height: 3.25em;
+  width: 3.25em;
   border-radius: 0.5em;
 }
 

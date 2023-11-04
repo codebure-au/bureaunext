@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 import styles from "./AppSummary.module.css";
 import appLinksStyle from "./appLinks.module.css";
@@ -10,12 +11,18 @@ const SolitaireSummary: React.FC = () => {
       <div className={styles.body}>
         <div className={styles.text}>
           <div className={styles.row}>
-            <div className={styles.icon}>
-              <img src="/images/solitaire_icon.png" />
+            <div className={styles.iconContainer}>
+              <Image
+                className={styles.iconImage}
+                alt="Solitaire Icon"
+                width={512}
+                height={512}
+                src="/images/solitaire_icon.png"
+              />
             </div>
             <div style={{ flex: 1 }}>
               <div className={styles.title}>
-                <Link href="/apps/solitaire">Solitaire</Link>
+                <Link href="/apps/solitaire">Klondike Solitaire</Link>
               </div>
               <div className={styles.subtitle}>
                 Classic Solitaire. No Ads. No Frills.
@@ -25,7 +32,7 @@ const SolitaireSummary: React.FC = () => {
           <p>
             <div className={appLinksStyle.appLinks}>
               <div className={appLinksStyle.playStore}>
-                <a
+                <Link
                   href="https://play.google.com/store/apps/details?id=au.com.bure.apps.solitaire&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"
                   target="_blank"
                 >
@@ -33,7 +40,7 @@ const SolitaireSummary: React.FC = () => {
                     alt="Get it on Google Play"
                     src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
                   />
-                </a>
+                </Link>
               </div>
             </div>
           </p>

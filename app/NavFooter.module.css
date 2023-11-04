@@ -1,10 +1,17 @@
 .NavFooter {
   background-color: hsl(0, 0%, 93%);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.NavFooter .footer {
   padding: 1.5em 1em;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: auto;
 }
 
 .NavFooter .section {
@@ -32,7 +39,14 @@
 }
 
 @media screen and (min-width: 600px) {
-  .NavFooter {
+  .NavFooter .footer {
     justify-content: flex-start;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .NavFooter .footer {
+    width: 1280px;
+    align-self: center;
   }
 }
